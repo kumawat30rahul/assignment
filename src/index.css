@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&family=Ubuntu:wght@300;400;500;700&display=swap');
+
+:root{
+  --orange: #a74800;
+  --white: white;
+  --orange-light: #a748004d;
+  --white-secondary: #FFF5EE;
+  --text-shadow: 0px 4.94286px 4.94286px rgba(0, 0, 0, 0.3), 0px 4.94286px 4.94286px rgba(0, 0, 0, 0.25);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  /* border:1px solid #a748001f !important; */
+
+}
+
+body{
+  height: 100vh;
+  width: 100%;
+}

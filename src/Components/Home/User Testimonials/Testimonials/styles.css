@@ -1,0 +1,29 @@
+
+.heading{
+    border: 1ps solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.title{
+    color: var(--orange);
+}
+
+
+.user-testimonials{
+   margin-top: 30px;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   justify-content: center;
+}
+.ut-slider{
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    width: 80%;
+    height: 300px;
+}

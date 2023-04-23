@@ -1,0 +1,19 @@
+.stack{
+    width: 100% !important;
+    align-items: center !important;
+    justify-content: center !important;
+    margin-left: 0 !important;
+    margin-right: 5rem !important;
+}
+
+.destop-nav{
+    font-size: 0.8rem !important;
+}
+
+.close-icon{
+    color: black !important;
+}
+
+.chakra-collapse{
+    padding-top: 50px !important;
+}

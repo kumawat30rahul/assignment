@@ -1,0 +1,44 @@
+.review-swiper  .swiper-wrapper{
+    align-items: center;
+    justify-content: center !important;
+}
+
+.swiper-button-prev{
+    left: 60px !important;
+    height: 100px !important;
+    width: 50px !important;
+    background-color: #a74800;
+    color: rgba(0, 0, 0, 0.527) !important;
+}
+
+.swiper-button-next{
+    right: 60px !important;
+    height: 100px !important;
+    width: 50px !important;
+    background-color: #a74800;
+    color: rgba(0, 0, 0, 0.527) !important;
+}
+/* .swiper-pagination {
+   top: 280px !important;
+} */
+
+@media (max-width: 800px){
+    .swiper-button-prev{
+        left: 30px !important;
+
+    }
+    
+    .swiper-button-next{
+        right: 30px !important;
+    }
+}
+@media (max-width: 800px){
+    .swiper-button-prev{
+        left: 5px !important;
+
+    }
+    
+    .swiper-button-next{
+        right: 5px !important;
+    }
+}

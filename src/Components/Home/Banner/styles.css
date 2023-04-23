@@ -1,0 +1,21 @@
+.banner_slides{
+    width: 100% !important;
+    height: auto;
+    z-index: 15;
+}
+
+.banner-slider-div{
+    margin-top: 150px;
+}
+.banner-div > .slick-next{
+    display: none !important;
+}
+.banner-div > .slick-prev{
+    display: none !important;
+}
+
+/* @media (max-width: 425px){
+    .banner_slides{
+        height: 100px;
+    }
+} */

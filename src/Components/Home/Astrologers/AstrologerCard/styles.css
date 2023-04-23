@@ -1,0 +1,189 @@
+.astro-card{
+    height: 340px;
+    width: 240px;
+    border-radius: 15px;
+    background-color: var(--orange);
+    color: white;
+    text-shadow: var(--text-shadow)
+}
+
+.top{
+    position: relative;
+    height: 290px;
+    width: 100%;
+}
+
+.bottom{
+    height: 50px;
+    width: 100%;
+}
+
+.astro-img-div{
+    height: 100%;
+    width: 100%;
+    /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRArc_Xq9GIWSaFsDhaI1XDCMNtGcgV9ItwA44Vk3AjqA&usqp=CAU&ec=48600112"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+
+}
+.astro-img{
+    height: 100%;
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+}
+.online{
+    background-color: rgba(0, 0, 0, 0.548);
+    padding: 5px;
+    font-size: 12px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70px;
+}
+.circle-icon{
+    color: #5CE449;
+    font-size: 1rem !important;
+    border: none;
+    text-shadow: none;
+
+}
+.exp{
+    font-size: 12px;
+
+}
+.astro-content-div{
+    position: absolute;
+    border-radius: 15px 15px 0 0 ;
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    top: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.164);
+}
+
+.astro-content-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.astro-content-bottom{
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.bottom-content-first{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.name{
+    font-weight: 500;
+    margin-bottom: 15px;
+    text-shadow: var(--text-shadow)
+}
+/* .bottom-content-second{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+} */
+
+.astro-card-heading{
+    font-size: 12px;
+    
+}
+
+.astro-card-desc{
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.price-heading{
+    width: 80px;
+    font-size: 12px;
+    text-align: center;
+    color: #5CE449;
+    font-weight: 400;
+}
+
+.price{
+    font-size: 30px !important;
+    font-weight: bolder;
+}
+.rating{
+    font-size: 12px;
+}
+
+.bottom{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.border-left{
+    border-left: 1px solid white;
+}
+
+.live{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: var(--orange);
+    z-index: 10;
+    position: absolute;
+    top: -20px;
+    /* border-top-left-radius: 0; */
+    /* border-top-right-radius: 0; */
+    border-bottom: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.chat,.call{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.bottom-btn-icons{
+    text-shadow: none;
+}
+
+.live-svg{
+    height: 30px;
+    width: 30px;
+}
+
+.down{
+    margin-top: 40px;
+}
+
+.rating{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+@media (max-width: 800px){
+    .astro-card{
+        height: 340px !important;
+        width: 240px !important;
+    }
+    .down{
+        margin-top: 0px !important;
+    }
+}

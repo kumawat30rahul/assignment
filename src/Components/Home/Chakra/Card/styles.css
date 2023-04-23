@@ -1,0 +1,41 @@
+
+.mpos-card{
+    width: 250px;
+    border: 1px solid var(--orange);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    gap: 20px;
+    margin: 10px 0 10px 0;
+}
+.reverse{
+    display: flex !important;
+    flex-direction: row-reverse !important;
+    align-items: center !important;
+}
+.reverse-img-div{
+    border-radius: 0 8px 8px 0 !important;
+}
+.mpos-img-div{
+    border-radius: 8px 0 0 8px;
+    padding: 10px;
+    background-color: var(--orange);
+}
+.mpos-card-img{
+    height: 50px;
+    width: 50px;
+}
+.mpos-title{
+    width: 150px;
+}
+
+
+@media (max-width: 800px){
+    .reverse{
+        flex-direction: row !important;
+    }
+    .reverse-img-div{
+        border-radius:  8px 0 0 8px !important;
+    }
+}

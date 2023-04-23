@@ -1,0 +1,23 @@
+.ut-title-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin: 20px 0 25px 0;
+}
+
+.ut-title{
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+
+@media (max-width: 425px){
+    .ut-title{
+        font-size: 1.5rem;
+    }
+    .small{
+        font-size: 1.3rem;
+    }
+
+}
