@@ -86,7 +86,7 @@
 }
 @media (max-width: 1025px){
     .slick-track{
-        margin-left: -50px !important;
+        margin-left: 32px !important;
     }
     .slick-next{
         right: 42% !important;
